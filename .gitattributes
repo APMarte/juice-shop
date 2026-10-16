@@ -1,2 +1,4 @@
 # Handle line endings for .junie directory
 .junie/** text eol=lf
+
+.github/workflows/*.lock.yml linguist-generated=true
