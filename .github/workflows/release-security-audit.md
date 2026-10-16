@@ -13,7 +13,6 @@ timeout-minutes: 120
 
 permissions:
   contents: read
-  copilot-requests: write      # or remove this and use a COPILOT_GITHUB_TOKEN secret
 
 network: defaults
 
