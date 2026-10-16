@@ -1,16 +1,14 @@
 ---
 on:
   push:
-    tags:
-      - 'v[0-9]+.[0-9]+.[0-9]+'
-      - '[0-9]+.[0-9]+.[0-9]+'
     branches:
-      - add-security-agentic-workflow   # temporary, remove before merging
+      - master
+
   workflow_dispatch:
   
 engine:
   id: copilot
-  model: claude-sonnet-5.5
+  model: gpt-6-luna
 timeout-minutes: 120
 
 permissions:
