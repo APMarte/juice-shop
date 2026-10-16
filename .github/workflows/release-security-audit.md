@@ -8,7 +8,7 @@ on:
   
 engine:
   id: copilot
-  model: gpt-6-luna
+  model: claude-sonnet-5.5
 timeout-minutes: 120
 
 permissions:
