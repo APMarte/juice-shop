@@ -62,7 +62,6 @@ safe-outputs:
   create-issue:
     title-prefix: "[security] "
     labels: [security, ai-generated]
-    assignees: [copilot]
     max: 15
     deduplicate-by-title: 1
 ---
