@@ -13,7 +13,6 @@ timeout-minutes: 120
 
 permissions:
   contents: read
-
 network: defaults
 
 steps:
